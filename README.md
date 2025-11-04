@@ -33,6 +33,7 @@ Currently the following devices are known to work:
 - LEX Plus 10 S Connect
   - firmware SLPS 1.7 (uses HTTP)
   - firmware SLPS 1.9 (uses HTTPS but without validating the certificate)
+  - firmware SLPS 2.3 (with changes to the HTTPS certificate & response for firmware.syrconnect.de/firmware/saocal2/scf.cfg )
 
 If you have a different device or one of the mentioned devices with a different firmware, please test and report back. Newer firmware versions are known to more thorougly check HTTPS certificates. But, it is possible to [downgrade the firmware](#firmware-downgrade).
 
